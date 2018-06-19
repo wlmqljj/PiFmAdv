@@ -585,7 +585,7 @@ int main(int argc, char **argv) {
 	char *audio_file = NULL;
 	char *control_pipe = NULL;
 	int carrier_freq = 107900000;
-    	int rds = 1;
+    	int rds = 0;
 	int alternative_freq[100] = {};
 	int af_size = 0;
 	char *ps = "PiFmAdv";
